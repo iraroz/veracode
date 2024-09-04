@@ -84,6 +84,7 @@ jobs:
           filepath: ./veracode_artifact_directory/
           vid: '${{ secrets.VERACODE_API_ID }}'
           vkey: '${{ secrets.VERACODE_API_KEY }}'
+          #deleteincompletescan: true
           #scanpollinginterval: 30
           scantimeout: 30
           # include: ${{ inputs.modules_to_scan }}
